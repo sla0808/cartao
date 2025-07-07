@@ -1,7 +1,52 @@
-body {
-background-color: blueviolet;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+:root {
+    --text-color: #DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
 }
+
+body {
+    background: url('img/sla.png');
+    font-family: Bai Jamjuree;
+}
+
+#container {
+display: flex; /*elementos dispostos em linha*/
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: blueviolet;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+.cartao_conteudo {
+    text-align: center;
+   /* background-color: limegreen;*/
+    height: 100%;
+}
+
+.cartao_conteudo h3 {
+    background-color: blue;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
+
+.cartao_conteudo p {
+    margin-top: 1rem;
+    padding: 2rem;
+}
+
+
+
+
+
+
 
 footer {
     background-color: black;
@@ -17,3 +62,5 @@ footer p {
     font-size: 0.75rem;
     margin-top: 0.5rem;
 }
+
+
